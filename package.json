@@ -1,0 +1,98 @@
+{
+    "name": "@fiduswriter/pandoc",
+    "version": "0.1.0",
+    "description": "Fidus Writer Pandoc import/export conversion library",
+    "keywords": [
+        "fiduswriter",
+        "pandoc",
+        "import",
+        "export",
+        "document",
+        "wasm"
+    ],
+    "homepage": "https://git.fiduswriter.org/fiduswriter/fiduswriter-pandoc-plugin-ts#readme",
+    "bugs": {
+        "url": "https://git.fiduswriter.org/fiduswriter/fiduswriter-pandoc-plugin-ts/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "ssh://git@git.fiduswriter.org/fiduswriter/fiduswriter-pandoc-plugin-ts.git"
+    },
+    "license": "AGPL-3.0",
+    "author": "Johannes Wilm",
+    "type": "module",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "default": "./dist/index.js"
+        },
+        "./exporter": {
+            "types": "./dist/exporter.d.ts",
+            "default": "./dist/exporter.js"
+        },
+        "./importer": {
+            "types": "./dist/importer.d.ts",
+            "default": "./dist/importer.js"
+        },
+        "./book_exporter": {
+            "types": "./dist/book_exporter.d.ts",
+            "default": "./dist/book_exporter.js"
+        },
+        "./formats": {
+            "types": "./dist/constants.d.ts",
+            "default": "./dist/constants.js"
+        }
+    },
+    "directories": {
+        "test": "test"
+    },
+    "files": [
+        "dist/",
+        "src/",
+        "README.md",
+        "LICENSE",
+        "locale/*/messages.json"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build",
+        "typecheck": "tsc --noEmit",
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --config jest.config.js",
+        "lint": "eslint src test",
+        "lint:fix": "eslint src test --fix",
+        "format": "prettier --write .",
+        "format:check": "prettier --check ."
+    },
+    "dependencies": {
+        "@fiduswriter/books-document": "^0.1.14",
+        "@fiduswriter/document": "^0.2.40",
+        "bibliojson": "^4.0.4",
+        "downloadjs": "^1.4.7",
+        "fwtoolkit": "^0.2.8",
+        "pandoc-wasm": "1.0.1"
+    },
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "@types/node": "^26.0.1",
+        "eslint": "^10.6.0",
+        "globals": "^15.15.0",
+        "jest": "^30.4.2",
+        "lint-staged": "^17.0.8",
+        "prettier": "^3.8.5",
+        "ts-jest": "^29.1.2",
+        "ts-jest-resolver": "^2.0.1",
+        "typescript": "^6.0.3",
+        "typescript-eslint": "^8.62.0"
+    },
+    "lint-staged": {
+        "*.{ts,js,mjs,css,md,json,html}": [
+            "prettier --write"
+        ],
+        "*.{ts,js,mjs}": [
+            "eslint --fix",
+            "sh -c 'npm run typecheck'"
+        ]
+    }
+}
