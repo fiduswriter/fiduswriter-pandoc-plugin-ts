@@ -66,7 +66,7 @@
         "format:check": "prettier --check ."
     },
     "dependencies": {
-        "@fiduswriter/books-document": "^0.1.14",
+        "@fiduswriter/books-document": "^0.1.15",
         "@fiduswriter/document": "^0.2.40",
         "bibliojson": "^4.0.4",
         "downloadjs": "^1.4.7",
