@@ -13,7 +13,7 @@ import/export conversion for Fidus Writer. It builds on top of
 
 - Package name: `@fiduswriter/pandoc`
 - License: `AGPL-3.0`
-- Repository: `https://codeberg.org/fiduswriter/fiduswriter-pandoc-plugin-ts.git`
+- Repository: `https://git.fiduswriter.org/fiduswriter/fiduswriter-pandoc-plugin-ts.git`
 - Author: Johannes Wilm
 
 ## Scope
