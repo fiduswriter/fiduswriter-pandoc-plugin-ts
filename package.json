@@ -66,25 +66,26 @@
         "format:check": "prettier --check ."
     },
     "dependencies": {
-        "@fiduswriter/books-document": "^0.1.15",
-        "@fiduswriter/document": "^0.2.40",
+        "@fiduswriter/books-document": "^0.1.16",
+        "@fiduswriter/document": "^0.2.41",
         "bibliojson": "^4.0.4",
         "downloadjs": "^1.4.7",
-        "fwtoolkit": "^0.2.8",
+        "fwtoolkit": "^0.2.10",
         "pandoc-wasm": "1.0.1"
     },
     "devDependencies": {
         "@eslint/js": "^10.0.1",
+        "@swc/core": "^1.16.1",
+        "@swc/jest": "^0.2.39",
         "@types/node": "^26.0.1",
+        "@typescript/native": "npm:typescript@^7.0.2",
         "eslint": "^10.6.0",
         "globals": "^15.15.0",
         "jest": "^30.4.2",
         "lint-staged": "^17.0.8",
         "prettier": "^3.8.5",
-        "ts-jest": "^29.1.2",
-        "ts-jest-resolver": "^2.0.1",
-        "typescript": "^6.0.3",
-        "typescript-eslint": "^8.62.0"
+        "typescript": "npm:@typescript/typescript6@^6.0.2",
+        "typescript-eslint": "^8.67.0"
     },
     "lint-staged": {
         "*.{ts,js,mjs,css,md,json,html}": [
