@@ -66,11 +66,11 @@
         "format:check": "prettier --check ."
     },
     "dependencies": {
-        "@fiduswriter/books-document": "^0.1.20",
-        "@fiduswriter/document": "^0.3.9",
+        "@fiduswriter/books-document": "^0.1.22",
+        "@fiduswriter/document": "^0.3.12",
         "bibliojson": "^4.0.4",
         "downloadjs": "^1.4.7",
-        "fwtoolkit": "^0.2.17",
+        "fwtoolkit": "^0.2.19",
         "pandoc-wasm": "1.0.1"
     },
     "devDependencies": {
