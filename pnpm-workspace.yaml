@@ -1,6 +1,12 @@
 allowBuilds:
+  '@parcel/watcher': true
   '@swc/core': true
   core-js: true
   core-js-pure: true
   es5-ext: true
   unrs-resolver: true
+overrides:
+  test-exclude: ^8.0.0
+  '@babel/polyfill': '-'
+  '@xmldom/xmldom': 0.9.12
+  'glob@^10.5.0': ^13.0.6
