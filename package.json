@@ -63,7 +63,8 @@
         "lint": "eslint src test",
         "lint:fix": "eslint src test --fix",
         "format": "prettier --write .",
-        "format:check": "prettier --check ."
+        "format:check": "prettier --check .",
+        "prepare": "husky"
     },
     "dependencies": {
         "@fiduswriter/books-document": "^0.1.25",
@@ -81,11 +82,12 @@
         "@typescript/native": "npm:typescript@^7.0.2",
         "eslint": "^10.6.0",
         "globals": "^15.15.0",
-        "jest": "^30.4.2",
+        "jest": "^30.5.2",
         "lint-staged": "^17.0.8",
         "prettier": "^3.8.5",
         "typescript": "npm:@typescript/typescript6@^6.0.2",
-        "typescript-eslint": "^8.67.0"
+        "typescript-eslint": "^8.67.0",
+        "husky": "^9.1.7"
     },
     "lint-staged": {
         "*.{ts,js,mjs,css,md,json,html}": [
