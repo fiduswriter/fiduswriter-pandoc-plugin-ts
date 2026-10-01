@@ -16,28 +16,28 @@ agnostic: it can be used from the browser, from Node.js, or from
 
 ### Supported operations
 
-| Operation | Description |
-|-----------|-------------|
-| `PandocConversionExporter` | Convert a single Fidus document to any pandoc output format. |
-| `PandocConversionImporter` | Import a file (DOCX, EPUB, ODT, LaTeX, etc.) into Fidus JSON via pandoc. |
-| `PandocBookExporter` | Convert every chapter of a Fidus book and package the results into a ZIP. |
+| Operation                  | Description                                                               |
+| -------------------------- | ------------------------------------------------------------------------- |
+| `PandocConversionExporter` | Convert a single Fidus document to any pandoc output format.              |
+| `PandocConversionImporter` | Import a file (DOCX, EPUB, ODT, LaTeX, etc.) into Fidus JSON via pandoc.  |
+| `PandocBookExporter`       | Convert every chapter of a Fidus book and package the results into a ZIP. |
 
 ## Exports
 
 Main entry exports:
 
-| Export | Description |
-|--------|-------------|
+| Export    | Description                              |
+| --------- | ---------------------------------------- |
 | `formats` | List of supported import/export formats. |
 
 ### Subpath exports
 
-| Path | Description |
-|------|-------------|
-| `./exporter` | `PandocConversionExporter` |
-| `./importer` | `PandocConversionImporter` |
-| `./book_exporter` | `PandocBookExporter` |
-| `./formats` | Format constants |
+| Path              | Description                |
+| ----------------- | -------------------------- |
+| `./exporter`      | `PandocConversionExporter` |
+| `./importer`      | `PandocConversionImporter` |
+| `./book_exporter` | `PandocBookExporter`       |
+| `./formats`       | Format constants           |
 
 ## Installation
 

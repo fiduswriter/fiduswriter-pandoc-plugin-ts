@@ -26,7 +26,9 @@ export class PandocConversionImporter extends PandocImporter {
         const nameParts = file.name.split(".")
         const fromExtension = nameParts.pop()
         this.title = nameParts.join(".")
-        const format = formats.find(format => format[1].includes(fromExtension || ""))
+        const format = formats.find(format =>
+            format[1].includes(fromExtension || "")
+        )
         const from = format?.[2]
         const binaryZip = format?.[3]
         const inData = binaryZip ? this.file : await fileToString(this.file)

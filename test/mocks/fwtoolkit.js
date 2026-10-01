@@ -49,7 +49,8 @@ export const noSpaceTmp = (strings, ...values) => {
         }
         if (values.length > 0) {
             const value = values.shift()
-            combined += value !== undefined && value !== null ? String(value) : ""
+            combined +=
+                value !== undefined && value !== null ? String(value) : ""
         }
     }
     return combined

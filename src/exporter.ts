@@ -6,7 +6,10 @@ import {get, gettext} from "fwtoolkit"
 
 import type {BibDB, CSL, ExportDoc, ImageDB} from "@fiduswriter/document"
 
-export type ProgressCallback = (message: string, percentage?: number | null) => void
+export type ProgressCallback = (
+    message: string,
+    percentage?: number | null
+) => void
 
 export interface PandocConversionOptions {
     fullFileExport?: boolean

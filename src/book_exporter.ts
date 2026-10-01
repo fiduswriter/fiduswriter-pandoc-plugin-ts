@@ -15,7 +15,10 @@ import type {BibDB, CSL, ImageDB, User} from "@fiduswriter/document"
 import {get, gettext, interpolate} from "fwtoolkit"
 import {ZipFileCreator} from "fwtoolkit/file/zip"
 
-export type ProgressCallback = (message: string, percentage?: number | null) => void
+export type ProgressCallback = (
+    message: string,
+    percentage?: number | null
+) => void
 
 export interface PandocBookExporterOptions {
     [key: string]: unknown
@@ -204,7 +207,10 @@ export class PandocBookExporter {
                             contents: blob
                         }))
                 })
-                .filter((p): p is Promise<{filename: string; contents: Blob}> => p !== null)
+                .filter(
+                    (p): p is Promise<{filename: string; contents: Blob}> =>
+                        p !== null
+                )
 
             const downloadedFiles = await Promise.all(binaryFiles)
 
@@ -217,11 +223,16 @@ export class PandocBookExporter {
 
             // ── 5. Add bibliography for this chapter (if any) ──────────────
             const hasBib = Object.keys(conversion.usedBibDB).length > 0
-            const chapterBibEntries: Record<string, Record<string, unknown>> = {}
+            const chapterBibEntries: Record<
+                string,
+                Record<string, unknown>
+            > = {}
             if (hasBib) {
                 Object.keys(conversion.usedBibDB).forEach(bibId => {
                     if ((doc.bibliography || {})[bibId]) {
-                        chapterBibEntries[bibId] = (doc.bibliography || {})[bibId]
+                        chapterBibEntries[bibId] = (doc.bibliography || {})[
+                            bibId
+                        ]
                     }
                 })
             }
