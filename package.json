@@ -72,7 +72,7 @@
         "bibliojson": "^4.0.4",
         "downloadjs": "^1.4.7",
         "fwtoolkit": "^0.2.26",
-        "pandoc-wasm": "1.0.1"
+        "pandoc-wasm": "1.1.0"
     },
     "devDependencies": {
         "@eslint/js": "^10.0.1",
