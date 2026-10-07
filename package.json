@@ -68,7 +68,7 @@
     },
     "dependencies": {
         "@fiduswriter/books-document": "^0.1.29",
-        "@fiduswriter/document": "^0.3.28",
+        "@fiduswriter/document": "^0.3.32",
         "bibliojson": "^4.0.4",
         "downloadjs": "^1.4.7",
         "fwtoolkit": "^0.2.26",
