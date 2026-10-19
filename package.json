@@ -68,10 +68,10 @@
     },
     "dependencies": {
         "@fiduswriter/books-document": "^0.1.29",
-        "@fiduswriter/document": "^0.3.32",
+        "@fiduswriter/document": "^0.3.33",
         "bibliojson": "^4.0.4",
         "downloadjs": "^1.4.7",
-        "fwtoolkit": "^0.2.26",
+        "fwtoolkit": "^0.2.28",
         "pandoc-wasm": "1.0.1"
     },
     "devDependencies": {
