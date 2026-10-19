@@ -2,8 +2,8 @@ import type {BibDB as BibliojsonBibDB} from "bibliojson"
 import {BibLatexExporter} from "bibliojson"
 import download from "downloadjs"
 
-import {getMissingChapterData} from "@fiduswriter/books-document/exporter/tools"
-import type {Book, DocumentListEntry} from "@fiduswriter/books-document"
+import {getMissingChapterData} from "@fiduswriter/books/exporter/tools"
+import type {Book, DocumentListEntry} from "@fiduswriter/books"
 import {PandocExporterCitations} from "@fiduswriter/document/exporter/pandoc/citations"
 import {PandocExporterConvert} from "@fiduswriter/document/exporter/pandoc/convert"
 import {

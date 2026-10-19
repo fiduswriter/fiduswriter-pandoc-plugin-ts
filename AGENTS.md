@@ -8,7 +8,7 @@ with the project.
 
 `@fiduswriter/pandoc` is a TypeScript library that implements Pandoc-based
 import/export conversion for Fidus Writer. It builds on top of
-`@fiduswriter/document` and `@fiduswriter/books-document` and is consumed by the
+`@fiduswriter/document` and `@fiduswriter/books` and is consumed by the
 `fiduswriter-pandoc-plugin` Django plugin.
 
 - Package name: `@fiduswriter/pandoc`

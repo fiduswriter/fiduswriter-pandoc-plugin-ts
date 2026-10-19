@@ -10,7 +10,7 @@
 
 Implements document- and book-level conversion using
 [pandoc-wasm](https://github.com/jgm/pandoc-wasm). It builds on top of
-`@fiduswriter/document` and `@fiduswriter/books-document` and is backend
+`@fiduswriter/document` and `@fiduswriter/books` and is backend
 agnostic: it can be used from the browser, from Node.js, or from
 `@fiduswriter/cli`.
 
