@@ -67,11 +67,11 @@
         "prepare": "husky"
     },
     "dependencies": {
-        "@fiduswriter/books": "^0.2.0",
-        "@fiduswriter/document": "^0.3.33",
+        "@fiduswriter/books": "^0.2.1",
+        "@fiduswriter/document": "^0.3.39",
         "bibliojson": "^4.0.4",
         "downloadjs": "^1.4.7",
-        "fwtoolkit": "^0.2.28",
+        "fwtoolkit": "^0.2.31",
         "pandoc-wasm": "1.0.1"
     },
     "devDependencies": {
