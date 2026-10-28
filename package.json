@@ -81,7 +81,7 @@
         "@types/node": "^26.0.1",
         "@typescript/native": "npm:typescript@^7.0.2",
         "eslint": "^10.6.0",
-        "globals": "^15.15.0",
+        "globals": "^17.0.0",
         "jest": "^30.5.2",
         "lint-staged": "^17.0.8",
         "prettier": "^3.8.5",
