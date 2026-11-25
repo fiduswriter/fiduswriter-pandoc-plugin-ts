@@ -1,0 +1,15 @@
+{
+  "": "cs",
+  "Book cannot be exported due to lack of chapters.": "Knihu nelze exportovat z důvodu nedostatku kapitol.",
+  "Converting chapter %s of %s...": "Převádí se kapitola %s z %s...",
+  "Converting with Pandoc...": "Konverze s Pandocem...",
+  "Creating Pandoc archive...": "Vytváření archivu Pandoc...",
+  "Creating ZIP archive...": "Vytváření ZIP archivu...",
+  "Downloading converted file...": "Stahování převedeného souboru...",
+  "Pandoc book export complete.": "Export knihy Pandoc dokončen.",
+  "Pandoc export complete.": "Export Pandoc dokončen.",
+  "Pandoc export failed.": "Export Pandocu se nezdařil.",
+  "Pandoc export has been initiated.": "Export Pandoc byl zahájen.",
+  "Unknown file type": "Neznámý typ souboru",
+  "Untitled": "Bez názvu"
+}

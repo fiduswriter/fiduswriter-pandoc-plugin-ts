@@ -1,0 +1,15 @@
+{
+  "": "ru",
+  "Book cannot be exported due to lack of chapters.": "Книгу невозможно экспортировать из-за отсутствия глав.",
+  "Converting chapter %s of %s...": "Преобразование главы %s из %s...",
+  "Converting with Pandoc...": "Преобразование с помощью Pandoc...",
+  "Creating Pandoc archive...": "Создание архива Pandoc...",
+  "Creating ZIP archive...": "Создание ZIP-архива...",
+  "Downloading converted file...": "Загрузка конвертированного файла...",
+  "Pandoc book export complete.": "Экспорт книги Pandoc завершен.",
+  "Pandoc export complete.": "Экспорт Pandoc завершен.",
+  "Pandoc export failed.": "Экспорт Pandoc не удался.",
+  "Pandoc export has been initiated.": "Экспорт Pandoc начат.",
+  "Unknown file type": "Неизвестный тип файла",
+  "Untitled": "Без названия"
+}

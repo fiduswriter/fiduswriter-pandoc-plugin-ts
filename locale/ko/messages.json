@@ -1,0 +1,15 @@
+{
+  "": "ko",
+  "Book cannot be exported due to lack of chapters.": "장이 부족하여 책을 내보낼 수 없습니다.",
+  "Converting chapter %s of %s...": "%s의 %s장을 변환하는 중...",
+  "Converting with Pandoc...": "Pandoc로 변환 중...",
+  "Creating Pandoc archive...": "Pandoc 아카이브 생성 중...",
+  "Creating ZIP archive...": "ZIP 아카이브 생성 중...",
+  "Downloading converted file...": "변환된 파일을 다운로드하는 중...",
+  "Pandoc book export complete.": "판독북 수출이 완료되었습니다.",
+  "Pandoc export complete.": "Pandoc 내보내기가 완료되었습니다.",
+  "Pandoc export failed.": "Pandoc 내보내기에 실패했습니다.",
+  "Pandoc export has been initiated.": "Pandoc 내보내기가 시작되었습니다.",
+  "Unknown file type": "알 수 없는 파일 형식",
+  "Untitled": "제목 없음"
+}

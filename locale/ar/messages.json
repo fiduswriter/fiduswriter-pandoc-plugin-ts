@@ -1,0 +1,15 @@
+{
+  "": "ar",
+  "Book cannot be exported due to lack of chapters.": "لا يمكن تصدير الكتاب لعدم وجود فصول.",
+  "Converting chapter %s of %s...": "جارٍ تحويل الفصل %s من %s...",
+  "Converting with Pandoc...": "التحويل مع باندوك...",
+  "Creating Pandoc archive...": "جارٍ إنشاء أرشيف Pandoc...",
+  "Creating ZIP archive...": "جارٍ إنشاء أرشيف بتنسيق ZIP...",
+  "Downloading converted file...": "جارٍ تنزيل الملف المحول...",
+  "Pandoc book export complete.": "اكتمل تصدير كتاب Pandoc.",
+  "Pandoc export complete.": "اكتمل تصدير Pandoc.",
+  "Pandoc export failed.": "فشل تصدير Pandoc.",
+  "Pandoc export has been initiated.": "بدأ تصدير Pandoc.",
+  "Unknown file type": "نوع الملف غير معروف",
+  "Untitled": "بدون عنوان"
+}

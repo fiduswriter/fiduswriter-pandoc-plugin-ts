@@ -1,0 +1,15 @@
+{
+  "": "es",
+  "Book cannot be exported due to lack of chapters.": "El libro no se puede exportar por falta de capítulos.",
+  "Converting chapter %s of %s...": "Convirtiendo el capítulo %s de %s...",
+  "Converting with Pandoc...": "Convirtiendo con Pandoc...",
+  "Creating Pandoc archive...": "Creando archivo Pandoc...",
+  "Creating ZIP archive...": "Creando archivo ZIP...",
+  "Downloading converted file...": "Descargando archivo convertido...",
+  "Pandoc book export complete.": "Exportación del libro Pandoc completa.",
+  "Pandoc export complete.": "Exportación de Pandoc completa.",
+  "Pandoc export failed.": "La exportación de Pandoc falló.",
+  "Pandoc export has been initiated.": "Se ha iniciado la exportación de Pandoc.",
+  "Unknown file type": "Tipo de archivo desconocido",
+  "Untitled": "Sin título"
+}

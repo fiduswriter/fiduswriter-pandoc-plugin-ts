@@ -50,6 +50,8 @@ Do **not** put in this repository:
 │   ├── importer.ts       # PandocConversionImporter
 │   └── book_exporter.ts  # PandocBookExporter
 ├── dist/                 # Compiled JS, .d.ts and source maps (generated)
+├── locale/               # messages.po sources + compiled messages.json per language
+├── scripts/              # extract-i18n.js / compile-i18n.js
 ├── test/                 # Jest tests
 ├── package.json
 ├── tsconfig.json
@@ -71,7 +73,22 @@ pnpm test
 # Run linting and formatting checks
 pnpm run lint
 pnpm run format:check
+
+# Regenerate locale/<lang>/LC_MESSAGES/messages.po from src/ gettext() calls
+# (seeds translations from the backend's djangojs.po; requires the
+# fiduswriter-server-backend checkout next to this repo)
+pnpm run extract-i18n
+
+# Compile .po files to the runtime locale/<lang>/messages.json
+pnpm run compile-i18n
 ```
+
+Translations are filled in centrally by the backend's `translate_all.py`
+management command, which discovers this package through its
+`_KNOWN_TS_PACKAGES` list, runs `extract-i18n`, machine-translates the empty
+entries, and runs `compile-i18n`. The published npm package ships only
+`locale/*/messages.json`; the backend merges those into its JavaScript
+catalog at runtime.
 
 This repository uses pnpm for day-to-day development. Run `pnpm install` to
 install dependencies; `package-lock.json` is not tracked (pnpm maintains

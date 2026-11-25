@@ -1,0 +1,15 @@
+{
+  "": "zh_Hans",
+  "Book cannot be exported due to lack of chapters.": "由于缺少章节，书籍无法导出。",
+  "Converting chapter %s of %s...": "正在转换 %s 的第 %s 章...",
+  "Converting with Pandoc...": "使用 Pandoc 进行转换...",
+  "Creating Pandoc archive...": "正在创建 Pandoc 存档...",
+  "Creating ZIP archive...": "正在创建 ZIP 存档...",
+  "Downloading converted file...": "正在下载转换后的文件...",
+  "Pandoc book export complete.": "Pandoc 图书导出完成。",
+  "Pandoc export complete.": "Pandoc 导出完成。",
+  "Pandoc export failed.": "Pandoc 导出失败。",
+  "Pandoc export has been initiated.": "Pandoc 导出已启动。",
+  "Unknown file type": "未知的文件类型",
+  "Untitled": "无标题"
+}

@@ -1,0 +1,15 @@
+{
+  "": "tr",
+  "Book cannot be exported due to lack of chapters.": "Bölüm eksikliği nedeniyle kitap ihraç edilemiyor.",
+  "Converting chapter %s of %s...": "%s bölümünün %s bölümü dönüştürülüyor...",
+  "Converting with Pandoc...": "Pandoc ile dönüştürülüyor...",
+  "Creating Pandoc archive...": "Pandoc arşivi oluşturuluyor...",
+  "Creating ZIP archive...": "ZIP arşivi oluşturuluyor...",
+  "Downloading converted file...": "Dönüştürülen dosya indiriliyor...",
+  "Pandoc book export complete.": "Pandoc kitabının dışa aktarımı tamamlandı.",
+  "Pandoc export complete.": "Pandoc dışa aktarımı tamamlandı.",
+  "Pandoc export failed.": "Pandoc dışa aktarımı başarısız oldu.",
+  "Pandoc export has been initiated.": "Pandoc dışa aktarımı başlatıldı.",
+  "Unknown file type": "Bilinmeyen dosya türü",
+  "Untitled": "Başlıksız"
+}

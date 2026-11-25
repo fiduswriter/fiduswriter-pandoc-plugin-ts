@@ -64,6 +64,8 @@
         "lint:fix": "eslint src test --fix",
         "format": "prettier --write .",
         "format:check": "prettier --check .",
+        "extract-i18n": "node scripts/extract-i18n.js ../fiduswriter-server-backend/fiduswriter/locale",
+        "compile-i18n": "node scripts/compile-i18n.js",
         "prepare": "husky"
     },
     "dependencies": {
@@ -81,6 +83,7 @@
         "@types/node": "^26.0.1",
         "@typescript/native": "npm:typescript@^7.0.2",
         "eslint": "^10.6.0",
+        "gettext-parser": "^10.0.0",
         "globals": "^15.15.0",
         "jest": "^30.5.2",
         "lint-staged": "^17.0.8",

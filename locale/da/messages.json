@@ -1,0 +1,15 @@
+{
+  "": "da",
+  "Book cannot be exported due to lack of chapters.": "Bogen kan ikke eksporteres på grund af mangel på kapitler.",
+  "Converting chapter %s of %s...": "Konverterer kapitel %s af %s...",
+  "Converting with Pandoc...": "Konvertering med Pandoc...",
+  "Creating Pandoc archive...": "Opretter Pandoc-arkiv...",
+  "Creating ZIP archive...": "Opretter ZIP-arkiv...",
+  "Downloading converted file...": "Downloader konverteret fil...",
+  "Pandoc book export complete.": "Pandoc bogeksport færdig.",
+  "Pandoc export complete.": "Pandoc-eksport færdig.",
+  "Pandoc export failed.": "Pandoc-eksport mislykkedes.",
+  "Pandoc export has been initiated.": "Pandoc-eksport er igangsat.",
+  "Unknown file type": "Ukendt filtype",
+  "Untitled": "Uden titel"
+}

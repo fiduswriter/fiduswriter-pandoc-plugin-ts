@@ -1,0 +1,15 @@
+{
+  "": "nl",
+  "Book cannot be exported due to lack of chapters.": "Boek kan niet worden geëxporteerd vanwege gebrek aan hoofdstukken.",
+  "Converting chapter %s of %s...": "Hoofdstuk %s van %s converteren...",
+  "Converting with Pandoc...": "Converteren met Pandoc...",
+  "Creating Pandoc archive...": "Pandoc-archief maken...",
+  "Creating ZIP archive...": "ZIP-archief maken...",
+  "Downloading converted file...": "Geconverteerd bestand downloaden...",
+  "Pandoc book export complete.": "Pandoc-boekexport voltooid.",
+  "Pandoc export complete.": "Pandoc-export voltooid.",
+  "Pandoc export failed.": "Pandoc-export mislukt.",
+  "Pandoc export has been initiated.": "Pandoc-export is gestart.",
+  "Unknown file type": "Onbekend bestandstype",
+  "Untitled": "Naamloos"
+}

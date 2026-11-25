@@ -1,0 +1,15 @@
+{
+  "": "ja",
+  "Book cannot be exported due to lack of chapters.": "章がないため、ブックをエクスポートできません。",
+  "Converting chapter %s of %s...": "%s の章 %s を変換しています...",
+  "Converting with Pandoc...": "Pandoc で変換中...",
+  "Creating Pandoc archive...": "Pandoc アーカイブを作成しています...",
+  "Creating ZIP archive...": "ZIP アーカイブを作成しています...",
+  "Downloading converted file...": "変換されたファイルをダウンロードしています...",
+  "Pandoc book export complete.": "Pandoc ブックのエクスポートが完了しました。",
+  "Pandoc export complete.": "Pandoc のエクスポートが完了しました。",
+  "Pandoc export failed.": "Pandoc のエクスポートに失敗しました。",
+  "Pandoc export has been initiated.": "Pandoc のエクスポートが開始されました。",
+  "Unknown file type": "不明なファイルタイプ",
+  "Untitled": "無題"
+}
